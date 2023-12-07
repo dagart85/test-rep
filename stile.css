@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&family=Roboto&display=swap');
+
+html,
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+    background-color: #050729;
+    width: 100%;
+    font-size: 30px;
+}
+
+
+.first-page{
+    background-image: url(images/Background.png);
+    background-size: cover;
+    background-position: center ;
+    height: 100vh;
+    width: 100vw;
+}
+
+.social-media{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 80vw;
+    height: 60px;
+    width: 10vw;
+    background-color: #A276FF;
+    border-radius: 0 0 10px 10px;
+    min-width: 100px;
+}
+
+.img-sm{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+   text-decoration: none;
+   color: white;
+   font-family:'Oswald', sans-serif;
+   font-size: 0.6rem;
+}
+
+.logo{
+    margin-top: 70px;
+
+}
+.side-bar{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.side-bar{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 100%;
+   width: 1000%;
+}
+
+
+
+.bc{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    background-color: #050729;
+    z-index: 1;
+
+}
+
+
+
+
+
